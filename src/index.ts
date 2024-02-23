@@ -43,7 +43,16 @@ async function setExtraLibs() {
 }
 
 function createMonacoInstance() {
-  let model = monaco.editor.createModel("", "typescript", monaco.Uri.file("./index.ts"));
+  let model = monaco.editor.createModel(`import * as _ from "./lodash";
+
+  const students = [
+    { id: 1, name: 'John', grade: 'A' },
+    { id: 2, name: 'Alice', grade: 'B' },
+    { id: 3, name: 'Bob', grade: 'A' },
+    { id: 4, name: 'Jane', grade: 'C' }
+  ];
+  
+  const studentsByGrade = _.groupBy(students, "grade");`, "typescript", monaco.Uri.file("./index.ts"));
   monaco.editor.create(document.body, { model });
 }
 
