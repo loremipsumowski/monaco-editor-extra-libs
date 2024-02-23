@@ -1,12 +1,14 @@
 # Monaco Editor with Extra Libraries
 
+![Monaco Editor with Extra Libraries](example.gif)
+
 This project demonstrates how to set up Monaco Editor with extra libraries loaded, enabling IntelliSense for those libraries within the editor.
 
 ## Installation
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/example/monaco-editor-extra-libs.git
+git clone https://github.com/wizard8912/monaco-editor-extra-libs.git
 cd monaco-editor-extra-libs
 npm install
 ```
