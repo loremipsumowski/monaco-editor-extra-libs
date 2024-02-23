@@ -2,21 +2,35 @@
 	"name": "monaco-editor-extra-libs",
 	"version": "0.0.1",
 	"license": "MIT",
-  "author": "Przemysław Niedziela",
+	"author": "Przemysław Niedziela",
 	"description": "Monaco Editor with Extra Libraries is a sample project demonstrating how to enhance the functionality of Monaco Editor by loading additional libraries, such as lodash, and enabling IntelliSense for enhanced code editing experience. This project includes a pre-configured webpack setup to seamlessly integrate Monaco Editor with TypeScript support and extra libraries. Developers can leverage the power of Monaco Editor's advanced features, including syntax highlighting, code completion, and error checking, while working with their favorite libraries. Improve your coding productivity and streamline your development workflow with Monaco Editor with Extra Libraries.",
-  "keywords": ["monaco editor", "extra libraries", "intellisense", "typescript", "code editor", "development tools", "web development"],
+	"keywords": [
+		"monaco editor",
+		"extra libraries",
+		"intellisense",
+		"typescript",
+		"code editor",
+		"development tools",
+		"web development"
+	],
+	"repository": {
+		"url": "https://github.com/wizard8912/monaco-editor-extra-libs.git"
+	},
+  "homepage": "https://github.com/wizard8912/monaco-editor-extra-libs",
 	"main": "index.ts",
 	"scripts": {
 		"build": "webpack --mode=production --node-env=production",
 		"build:dev": "webpack --mode=development",
 		"build:prod": "webpack --mode=production --node-env=production",
 		"watch": "webpack --watch",
-		"serve": "webpack serve"
+		"serve": "webpack serve",
+    "deploy": "gh-pages -d dist"
 	},
 	"devDependencies": {
 		"copy-webpack-plugin": "^12.0.2",
 		"css-loader": "^5.2.7",
 		"file-loader": "^6.2.0",
+		"gh-pages": "^6.1.1",
 		"html-webpack-plugin": "^5.5.0",
 		"monaco-editor": "^0.32.1",
 		"monaco-editor-webpack-plugin": "^7.0.1",
