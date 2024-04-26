@@ -14,9 +14,9 @@
 		"web development"
 	],
 	"repository": {
-		"url": "https://github.com/wizard8912/monaco-editor-extra-libs.git"
+		"url": "https://github.com/loremipsumowski/monaco-editor-extra-libs.git"
 	},
-  "homepage": "https://wizard8912.github.io/monaco-editor-extra-libs/",
+  "homepage": "https://loremipsumowski.github.io/monaco-editor-extra-libs/",
 	"main": "index.ts",
 	"scripts": {
 		"build": "webpack --mode=production --node-env=production",
