@@ -8,7 +8,7 @@ This project demonstrates how to set up Monaco Editor with extra libraries loade
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/wizard8912/monaco-editor-extra-libs.git
+git clone https://github.com/loremipsumowski/monaco-editor-extra-libs.git
 cd monaco-editor-extra-libs
 npm install
 ```
